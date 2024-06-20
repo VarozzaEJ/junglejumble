@@ -9,8 +9,8 @@ export const router = new Router([
     controllers: [HomeController, ExamplesController],
     view: /*html*/`
     <div class="bg-white p-3">
-      <div class="card-body">
-        <p>Home Page</p>
+      <div class="card-body text-center">
+      <h1>Jungle Jumble</h1>
         <button class="btn btn-dark" onclick="app.HomeController.testButton()">😎</button>
       </div>
     </div>
